@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AAD2B532DFEC5B000D9CB70 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2AAD2B522DFEC5B000D9CB70 /* FirebaseAnalytics */; };
+		2AAD2B582DFEC66800D9CB70 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 2AAD2B572DFEC66800D9CB70 /* GoogleMobileAds */; };
+		2AAD2B612DFEC6F000D9CB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AAD2B5C2DFEC6F000D9CB70 /* Assets.xcassets */; };
+		2AAD2B622DFEC6F000D9CB70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD2B5B2DFEC6F000D9CB70 /* AppDelegate.swift */; };
+		2AAD2B632DFEC6F000D9CB70 /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD2B5D2DFEC6F000D9CB70 /* BannerAdView.swift */; };
+		2AAD2B642DFEC6F000D9CB70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD2B5E2DFEC6F000D9CB70 /* ContentView.swift */; };
+		2AAD2B652DFEC6F000D9CB70 /* InfiniteTranscriptionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD2B5F2DFEC6F000D9CB70 /* InfiniteTranscriptionApp.swift */; };
+		2AAD2B672DFEC7DE00D9CB70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AAD2B662DFEC7DE00D9CB70 /* GoogleService-Info.plist */; };
+		2AAD2B6A2DFEC9A000D9CB70 /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD2B692DFEC9A000D9CB70 /* AdManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A10BE1F2DFE7267008E6842 /* InfiniteTranscription.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteTranscription.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAD2B5B2DFEC6F000D9CB70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AAD2B5C2DFEC6F000D9CB70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AAD2B5D2DFEC6F000D9CB70 /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
+		2AAD2B5E2DFEC6F000D9CB70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AAD2B5F2DFEC6F000D9CB70 /* InfiniteTranscriptionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteTranscriptionApp.swift; sourceTree = "<group>"; };
+		2AAD2B662DFEC7DE00D9CB70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2AAD2B682DFEC86C00D9CB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2AAD2B692DFEC9A000D9CB70 /* AdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A10BE1C2DFE7267008E6842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAD2B582DFEC66800D9CB70 /* GoogleMobileAds in Frameworks */,
+				2AAD2B532DFEC5B000D9CB70 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A10BE162DFE7267008E6842 = {
+			isa = PBXGroup;
+			children = (
+				2AAD2B602DFEC6F000D9CB70 /* InfiniteTranscription */,
+				2A10BE202DFE7267008E6842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A10BE202DFE7267008E6842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A10BE1F2DFE7267008E6842 /* InfiniteTranscription.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AAD2B602DFEC6F000D9CB70 /* InfiniteTranscription */ = {
+			isa = PBXGroup;
+			children = (
+				2AAD2B682DFEC86C00D9CB70 /* Info.plist */,
+				2AAD2B5F2DFEC6F000D9CB70 /* InfiniteTranscriptionApp.swift */,
+				2AAD2B5B2DFEC6F000D9CB70 /* AppDelegate.swift */,
+				2AAD2B5D2DFEC6F000D9CB70 /* BannerAdView.swift */,
+				2AAD2B5E2DFEC6F000D9CB70 /* ContentView.swift */,
+				2AAD2B692DFEC9A000D9CB70 /* AdManager.swift */,
+				2AAD2B662DFEC7DE00D9CB70 /* GoogleService-Info.plist */,
+				2AAD2B5C2DFEC6F000D9CB70 /* Assets.xcassets */,
+			);
+			path = InfiniteTranscription;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A10BE1E2DFE7267008E6842 /* InfiniteTranscription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A10BE2A2DFE726B008E6842 /* Build configuration list for PBXNativeTarget "InfiniteTranscription" */;
+			buildPhases = (
+				2A10BE1B2DFE7267008E6842 /* Sources */,
+				2A10BE1C2DFE7267008E6842 /* Frameworks */,
+				2A10BE1D2DFE7267008E6842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfiniteTranscription;
+			packageProductDependencies = (
+				2AAD2B522DFEC5B000D9CB70 /* FirebaseAnalytics */,
+				2AAD2B572DFEC66800D9CB70 /* GoogleMobileAds */,
+			);
+			productName = InfiniteTranscription;
+			productReference = 2A10BE1F2DFE7267008E6842 /* InfiniteTranscription.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A10BE172DFE7267008E6842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					2A10BE1E2DFE7267008E6842 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 2A10BE1A2DFE7267008E6842 /* Build configuration list for PBXProject "InfiniteTranscription" */;
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 2A10BE162DFE7267008E6842;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2AAD2B512DFEC5B000D9CB70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2AAD2B562DFEC66800D9CB70 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2A10BE202DFE7267008E6842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A10BE1E2DFE7267008E6842 /* InfiniteTranscription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A10BE1D2DFE7267008E6842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAD2B612DFEC6F000D9CB70 /* Assets.xcassets in Resources */,
+				2AAD2B672DFEC7DE00D9CB70 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A10BE1B2DFE7267008E6842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAD2B622DFEC6F000D9CB70 /* AppDelegate.swift in Sources */,
+				2AAD2B6A2DFEC9A000D9CB70 /* AdManager.swift in Sources */,
+				2AAD2B632DFEC6F000D9CB70 /* BannerAdView.swift in Sources */,
+				2AAD2B642DFEC6F000D9CB70 /* ContentView.swift in Sources */,
+				2AAD2B652DFEC6F000D9CB70 /* InfiniteTranscriptionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A10BE282DFE726B008E6842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WN2XF964UU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A10BE292DFE726B008E6842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WN2XF964UU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A10BE2B2DFE726B008E6842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN2XF964UU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InfiniteTranscription/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeakNote;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "音声を録音して文字起こしを行います";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "音声認識のためにマイクを使用します";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "このアプリでは、Firebase Analytics や Crashlytics を用いて利用状況や不具合情報を分析し、サービス改善のためのトラッキング許可をお願いしています";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SpeakNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A10BE2C2DFE726B008E6842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN2XF964UU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InfiniteTranscription/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeakNote;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "音声を録音して文字起こしを行います";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "音声認識のためにマイクを使用します";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "このアプリでは、Firebase Analytics や Crashlytics を用いて利用状況や不具合情報を分析し、サービス改善のためのトラッキング許可をお願いしています";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SpeakNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A10BE1A2DFE7267008E6842 /* Build configuration list for PBXProject "InfiniteTranscription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A10BE282DFE726B008E6842 /* Debug */,
+				2A10BE292DFE726B008E6842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A10BE2A2DFE726B008E6842 /* Build configuration list for PBXNativeTarget "InfiniteTranscription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A10BE2B2DFE726B008E6842 /* Debug */,
+				2A10BE2C2DFE726B008E6842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2AAD2B512DFEC5B000D9CB70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.14.0;
+			};
+		};
+		2AAD2B562DFEC66800D9CB70 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2AAD2B522DFEC5B000D9CB70 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AAD2B512DFEC5B000D9CB70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		2AAD2B572DFEC66800D9CB70 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AAD2B562DFEC66800D9CB70 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2A10BE172DFE7267008E6842 /* Project object */;
+}
