@@ -185,6 +185,7 @@ struct ContentView: View {
     @State var isShowSplashView = true
     @State private var logoScale: CGFloat = 0.6
     @State private var logoOpacity: Double = 0.0
+    @State var isMenuPresented = false
     
     var homeBannerID: String {
     #if DEBUG
@@ -329,6 +330,21 @@ struct ContentView: View {
                             .font(.system(size: 20, weight: .bold, design: .rounded))
                             .foregroundColor(.primaryGradientStart)
                     }
+                    
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button(action: {
+                            isMenuPresented = true
+                        }) {
+                            Image(systemName: "line.3.horizontal")
+                                .resizable()
+                                .foregroundColor(.gray)
+                                .frame(width: 14, height: 14)
+                        }
+                        .padding(.leading, 15)
+                        .sheet(isPresented: $isMenuPresented) {
+                            MenuSheetView()
+                        }
+                    }
                 }
             }
             .onAppear {
@@ -418,6 +434,45 @@ struct ContentView: View {
         }
     }
 }
+ struct MenuSheetView: View {
+    @State var isAdLoaded = true
+    var body: some View {
+        NavigationView {
+            VStack {
+                List {
+                    Button {
+                        openURL("https://square-hockey-7b2.notion.site/1fdc71ad3e3b804497cdd7319678cf81?pvs=4")
+                    } label: {
+                        Label("プライバシーポリシー", systemImage: "lock.shield")
+                            .foregroundColor(.black)
+                    }
+                    
+                    Button {
+                        openURL("https://square-hockey-7b2.notion.site/1fdc71ad3e3b80f6a9b4ee047228eb5e?pvs=4")
+                    } label: {
+                        Label("利用規約", systemImage: "doc.text")
+                            .foregroundColor(.black)
+                    }
+                    
+                    Button {
+                        openURL("https://docs.google.com/forms/d/e/1FAIpQLScKdH6VkusLr3sSMfqbtbFgsLBW2JzhZ3uYpSOdpyvZo6x2nQ/viewform?usp=dialog")
+                    } label: {
+                        Label("問い合わせ", systemImage: "envelope")
+                            .foregroundColor(.black)
+                    }
+                }
+                .navigationTitle("メニュー")
+                .navigationBarTitleDisplayMode(.inline)
+            }
+        }
+    }
+    
+    private func openURL(_ urlString: String) {
+        guard let url = URL(string: urlString) else { return }
+        UIApplication.shared.open(url)
+    }
+}
+
 
 struct HistoryView: View {
     @ObservedObject var viewModel: SpeechViewModel
