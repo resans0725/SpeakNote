@@ -441,21 +441,21 @@ struct ContentView: View {
             VStack {
                 List {
                     Button {
-                        openURL("https://square-hockey-7b2.notion.site/1fdc71ad3e3b804497cdd7319678cf81?pvs=4")
+                        openURL("https://square-hockey-7b2.notion.site/214c71ad3e3b8094bf67eb678442c15e?pvs=74")
                     } label: {
                         Label("プライバシーポリシー", systemImage: "lock.shield")
                             .foregroundColor(.black)
                     }
                     
                     Button {
-                        openURL("https://square-hockey-7b2.notion.site/1fdc71ad3e3b80f6a9b4ee047228eb5e?pvs=4")
+                        openURL("https://square-hockey-7b2.notion.site/214c71ad3e3b80ac9069cb03679dce64?pvs=73")
                     } label: {
                         Label("利用規約", systemImage: "doc.text")
                             .foregroundColor(.black)
                     }
                     
                     Button {
-                        openURL("https://docs.google.com/forms/d/e/1FAIpQLScKdH6VkusLr3sSMfqbtbFgsLBW2JzhZ3uYpSOdpyvZo6x2nQ/viewform?usp=dialog")
+                        openURL("https://docs.google.com/forms/d/e/1FAIpQLSfty781m6wG1mRxON4xeXgMvobF7hcqIMIWu_mND9vjquCDiA/viewform?usp=dialog")
                     } label: {
                         Label("問い合わせ", systemImage: "envelope")
                             .foregroundColor(.black)
